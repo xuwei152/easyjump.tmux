@@ -56,6 +56,11 @@ def main() -> None:
     subprocess.run(
         args3, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
     )
+    args4 = args3[:]
+    args4[4] = 'f'
+    subprocess.run(
+        args4, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+    )
 
 
 def check_requirements() -> None:

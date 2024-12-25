@@ -1,3 +1,7 @@
+This is a fork of [roy2220/easyjump.tmux](https://github.com/roy2220/easyjump.tmux).
+
+I added 'f' to trigger the easyjump in copy mode.
+
 # easyjump.tmux
 
 EasyMotion for Tmux
